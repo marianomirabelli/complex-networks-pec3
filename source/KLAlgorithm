@@ -1,12 +1,6 @@
 import glob, os, io
 import  networkx as nx
-import io
-import subprocess
 from networkx.algorithms import community
-from os import path
-
-
-
 
 
 def executeKLAlgorithm(directory):
@@ -16,17 +10,22 @@ def executeKLAlgorithm(directory):
 
         multigraph = nx.read_pajek(file)
         modelGraph = nx.Graph(multigraph)
-        filename = os.path.join("/Users/Mariano/Documents/Maestria Matematica y Computacion/Redes Complejas/PEC 3/complex-networks-pec3/results/",file.split(".")[0]+ ".txt")
+        filename = os.path.join("/Users/Mariano/Documents/Maestria Matematica y Computacion/Redes Complejas/PEC 3/complex-networks-pec3/results/",file.split(".")[0]+ ".clu")
         f = open(filename, "w+")
         communities = community.kernighan_lin_bisection(modelGraph)
 
+        lines = [None] * (len(modelGraph)+1)
         group_number = 1
-        f.write("*Vertices " + str(len(modelGraph)) + "\n")
+
         for group in communities:
-            group_as_string = str(group_number)+ "\n"
+            group_as_string = str(group_number)
             for node_value in group:
-                f.write(group_as_string)
+                id = modelGraph.nodes.get(node_value)['id']
+                index = int(id)
+                lines[index] = group_as_string
             group_number+=1
+        lines[0] = "*Vertices " + str(len(modelGraph))
+        f.writelines('\n'.join(lines))
         f.close()
         print(communities)
 

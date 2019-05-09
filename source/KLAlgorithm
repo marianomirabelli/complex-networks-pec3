@@ -1,5 +1,6 @@
 import glob, os, io
 import  networkx as nx
+import stat
 from networkx.algorithms import community
 
 
@@ -10,8 +11,9 @@ def executeKLAlgorithm(directory):
 
         multigraph = nx.read_pajek(file)
         modelGraph = nx.Graph(multigraph)
-        filename = os.path.join("/Users/Mariano/Documents/Maestria Matematica y Computacion/Redes Complejas/PEC 3/complex-networks-pec3/results/",file.split(".")[0]+ ".clu")
-        f = open(filename, "w+")
+        file_name = file.split(".")[0]+ ".clu"
+        file_directory = os.path.join("../../results/",file_name)
+        f = open(file_directory, "w+")
         communities = community.kernighan_lin_bisection(modelGraph)
 
         lines = [None] * (len(modelGraph)+1)
@@ -26,8 +28,21 @@ def executeKLAlgorithm(directory):
             group_number+=1
         lines[0] = "*Vertices " + str(len(modelGraph))
         f.writelines('\n'.join(lines))
+        f.write("\n")
         f.close()
-        print(communities)
+        os.chdir("../../radatools/Communities_Tools/")
+        st = os.stat('./Compare_Partitions.exe')
+        os.chmod("./Compare_Partitions.exe", st.st_mode | stat.S_IEXEC)
+        if("rb125" in file_name):
+            index = 1
+            while(index<=3):
+                os.system("./Compare_Partitions.exe ../../results/" + file_name + " ../" + directory
+                          + "rb125-"+str(index)+".clu" + " ../../results/" + file_name + "-"+str(index) + ".exit " + " V")
+                index+=1
+        else:
+            os.system("./Compare_Partitions.exe ../../results/" + file_name + " ../" + directory
+                      + file_name + " ../../results/" + file_name + ".exit " + " V")
+        os.chdir( "../" + directory)
 
 
 def main():

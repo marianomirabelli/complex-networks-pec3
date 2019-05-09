@@ -1,0 +1,41 @@
+import glob, os, io
+import  networkx as nx
+import io
+import subprocess
+from networkx.algorithms import community
+from os import path
+
+
+
+
+
+def executeKLAlgorithm(directory):
+
+    os.chdir(directory)
+    for file in glob.glob("*.net"):
+
+        multigraph = nx.read_pajek(file)
+        modelGraph = nx.Graph(multigraph)
+        filename = os.path.join("/Users/Mariano/Documents/Maestria Matematica y Computacion/Redes Complejas/PEC 3/complex-networks-pec3/results/",file.split(".")[0]+ ".txt")
+        f = open(filename, "w+")
+        communities = community.kernighan_lin_bisection(modelGraph)
+
+        group_number = 1
+        f.write("*Vertices " + str(len(modelGraph)) + "\n")
+        for group in communities:
+            group_as_string = str(group_number)+ "\n"
+            for node_value in group:
+                f.write(group_as_string)
+            group_number+=1
+        f.close()
+        print(communities)
+
+
+def main():
+
+    #realFiles = os.listdir("../files/real/")
+    #toyFiles = os.listdir("../files/toy/")
+    executeKLAlgorithm("../files/model/")
+
+main()
+

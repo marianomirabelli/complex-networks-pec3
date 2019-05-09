@@ -4,31 +4,31 @@ Partition2: ../../files/model/rb125-1.clu
 Number of Lists(1) : 2
 Number of Lists(2) : 5
 
-Same Class Agreements : 1070
-Agreements            : 4546
-Disagreements(1)      : 2774
-Disagreements(2)      : 430
-Disagreements         : 3204
+Same Class Agreements : 1344
+Agreements            : 5094
+Disagreements(1)      : 2500
+Disagreements(2)      : 156
+Disagreements         : 2656
 Pairs                 : 7750
 
-Jaccard Index         : 0.2504
-Rand Index            : 0.5866
-Adjusted Rand Index   : 0.1691
-Fowlkes Mallows Index : 0.4456
-Normalized Mutual Information Index (maximum)    : 0.1708
-Normalized Mutual Information Index (arithmetic) : 0.2387
-Normalized Mutual Information Index (geometric)  : 0.2602
-Normalized Mutual Information Index (minimum)    : 0.3965
-Asymmetric Wallace Index(1) : 0.2784
-Asymmetric Wallace Index(2) : 0.7133
+Jaccard Index         : 0.3360
+Rand Index            : 0.6573
+Adjusted Rand Index   : 0.3112
+Fowlkes Mallows Index : 0.5597
+Normalized Mutual Information Index (maximum)    : 0.3446
+Normalized Mutual Information Index (arithmetic) : 0.4818
+Normalized Mutual Information Index (geometric)  : 0.5251
+Normalized Mutual Information Index (minimum)    : 0.8002
+Asymmetric Wallace Index(1) : 0.3496
+Asymmetric Wallace Index(2) : 0.8960
 
-Mirkin Metric                   : 6408.0000
-Van Dongen Metric               : 102.0000
-Variation Of Information Metric : 2.5289
-Normalized Mirkin Metric                   : 0.4134
-Normalized Van Dongen Metric               : 0.4080
-Normalized Variation Of Information Metric : 0.3630
+Mirkin Metric                   : 5312.0000
+Van Dongen Metric               : 87.0000
+Variation Of Information Metric : 1.7215
+Normalized Mirkin Metric                   : 0.3427
+Normalized Van Dongen Metric               : 0.3480
+Normalized Variation Of Information Metric : 0.2471
 
 Contingency table (Partition1 x Partition2):
-6	15	20	22	0
-19	10	5	3	25
+12	0	25	25	0
+13	25	0	0	25

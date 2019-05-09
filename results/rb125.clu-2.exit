@@ -4,31 +4,31 @@ Partition2: ../../files/model/rb125-2.clu
 Number of Lists(1) : 2
 Number of Lists(2) : 25
 
-Same Class Agreements : 240
-Agreements            : 4136
-Disagreements(1)      : 3604
-Disagreements(2)      : 10
-Disagreements         : 3614
+Same Class Agreements : 244
+Agreements            : 4144
+Disagreements(1)      : 3600
+Disagreements(2)      : 6
+Disagreements         : 3606
 Pairs                 : 7750
 
-Jaccard Index         : 0.0623
-Rand Index            : 0.5337
-Adjusted Rand Index   : 0.0603
-Fowlkes Mallows Index : 0.2448
-Normalized Mutual Information Index (maximum)    : 0.2007
-Normalized Mutual Information Index (arithmetic) : 0.3304
-Normalized Mutual Information Index (geometric)  : 0.4326
-Normalized Mutual Information Index (minimum)    : 0.9323
-Asymmetric Wallace Index(1) : 0.0624
-Asymmetric Wallace Index(2) : 0.9600
+Jaccard Index         : 0.0634
+Rand Index            : 0.5347
+Adjusted Rand Index   : 0.0624
+Fowlkes Mallows Index : 0.2489
+Normalized Mutual Information Index (maximum)    : 0.2070
+Normalized Mutual Information Index (arithmetic) : 0.3406
+Normalized Mutual Information Index (geometric)  : 0.4460
+Normalized Mutual Information Index (minimum)    : 0.9612
+Asymmetric Wallace Index(1) : 0.0635
+Asymmetric Wallace Index(2) : 0.9760
 
-Mirkin Metric                   : 7228.0000
-Van Dongen Metric               : 118.0000
-Variation Of Information Metric : 3.7793
-Normalized Mirkin Metric                   : 0.4663
-Normalized Van Dongen Metric               : 0.4720
-Normalized Variation Of Information Metric : 0.5426
+Mirkin Metric                   : 7212.0000
+Van Dongen Metric               : 117.0000
+Variation Of Information Metric : 3.7216
+Normalized Mirkin Metric                   : 0.4653
+Normalized Van Dongen Metric               : 0.4680
+Normalized Variation Of Information Metric : 0.5343
 
 Contingency table (Partition1 x Partition2):
-1	0	0	5	0	5	0	5	5	0	5	5	5	0	5	5	5	5	5	2	0	0	0	0	0
-4	5	5	0	5	0	5	0	0	5	0	0	0	5	0	0	0	0	0	3	5	5	5	5	5
+2	0	5	5	0	0	0	0	0	0	5	5	5	5	5	5	5	5	5	5	0	0	0	0	0
+3	5	0	0	5	5	5	5	5	5	0	0	0	0	0	0	0	0	0	0	5	5	5	5	5

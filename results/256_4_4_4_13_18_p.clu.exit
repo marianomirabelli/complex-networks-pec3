@@ -30,5 +30,5 @@ Normalized Van Dongen Metric               : 0.2500
 Normalized Variation Of Information Metric : 0.1250
 
 Contingency table (Partition1 x Partition2):
-64	0	64	0
-0	64	0	64
+64	64	0	0
+0	0	64	64

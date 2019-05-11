@@ -46,11 +46,8 @@ def exectueCliqueAlgorithm(directory):
                               + "rb125-"+str(index)+".clu" + " ../../results/" + file_name + "-"+str(index) + ".exit " + " V")
                     index+=1
         else:
-            if "real" in directory:
-                print("Real Networks")
-            else:
-                os.system("./Compare_Partitions.exe ../../results/" + file_name + " ../" + directory
-                          + file_name + " ../../results/" + file_name + ".exit " + " V")
+            os.system("./Compare_Partitions.exe ../../results/" + file_name + " ../" + directory
+                      + file_name + " ../../results/" + file_name + ".exit " + " V")
 
         os.chdir("../" + directory)
     os.chdir("../../source")
@@ -58,10 +55,9 @@ def exectueCliqueAlgorithm(directory):
 
 def main():
 
-    #realFiles = os.listdir("../files/real/")
-    #toyFiles = os.listdir("../files/toy/")
     exectueCliqueAlgorithm("../files/model/")
     exectueCliqueAlgorithm("../files/toy/")
+    exectueCliqueAlgorithm("../files/real/")
 
 main()
 

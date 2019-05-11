@@ -1,0 +1,37 @@
+Partition1: ../../results/zachary_unwh.clu
+Partition2: ../../files/real/zachary_unwh.clu
+
+Number of Lists(1) : 5
+Number of Lists(2) : 2
+
+Same Class Agreements : 145
+Agreements            : 307
+Disagreements(1)      : 126
+Disagreements(2)      : 128
+Disagreements         : 254
+Pairs                 : 561
+
+Jaccard Index         : 0.3634
+Rand Index            : 0.5472
+Adjusted Rand Index   : 0.0937
+Fowlkes Mallows Index : 0.5331
+Normalized Mutual Information Index (maximum)    : 0.2405
+Normalized Mutual Information Index (arithmetic) : 0.2835
+Normalized Mutual Information Index (geometric)  : 0.2881
+Normalized Mutual Information Index (minimum)    : 0.3451
+Asymmetric Wallace Index(1) : 0.5351
+Asymmetric Wallace Index(2) : 0.5311
+
+Mirkin Metric                   : 508.0000
+Van Dongen Metric               : 20.0000
+Variation Of Information Metric : 1.7403
+Normalized Mirkin Metric                   : 0.4528
+Normalized Van Dongen Metric               : 0.2941
+Normalized Variation Of Information Metric : 0.3421
+
+Contingency table (Partition1 x Partition2):
+6	0
+9	14
+0	1
+1	0
+0	3

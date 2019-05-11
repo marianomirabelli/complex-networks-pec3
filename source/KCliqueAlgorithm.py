@@ -38,8 +38,7 @@ def exectueCliqueAlgorithm(directory):
         os.chdir("../../radatools/Communities_Tools/")
         st = os.stat('./Compare_Partitions.exe')
         os.chmod("./Compare_Partitions.exe", st.st_mode | stat.S_IEXEC)
-        if "model" in directory:
-            if("rb125" in file_name):
+        if ("model" in directory) and ("rb125" in file_name):
                 index = 1
                 while(index<=3):
                     os.system("./Compare_Partitions.exe ../../results-kclique/" + file_name + " ../" + directory

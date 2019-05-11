@@ -1,0 +1,44 @@
+Partition1: ../../results-greeedy-m/rb125.clu
+Partition2: ../../files/model/rb125-3.clu
+
+Number of Lists(1) : 12
+Number of Lists(2) : 26
+
+Same Class Agreements : 246
+Agreements            : 7121
+Disagreements(1)      : 629
+Disagreements(2)      : 0       (Partition2 inside Partition1)
+Disagreements         : 629
+Pairs                 : 7750
+
+Jaccard Index         : 0.2811
+Rand Index            : 0.9188
+Adjusted Rand Index   : 0.4096
+Fowlkes Mallows Index : 0.5302
+Normalized Mutual Information Index (maximum)    : 0.7028
+Normalized Mutual Information Index (arithmetic) : 0.8254
+Normalized Mutual Information Index (geometric)  : 0.8383
+Normalized Mutual Information Index (minimum)    : 1.0000
+Asymmetric Wallace Index(1) : 0.2811
+Asymmetric Wallace Index(2) : 1.0000       (Partition2 inside Partition1)
+
+Mirkin Metric                   : 1258.0000
+Van Dongen Metric               : 65.0000
+Variation Of Information Metric : 1.3889
+Normalized Mirkin Metric                   : 0.0812
+Normalized Van Dongen Metric               : 0.2600
+Normalized Variation Of Information Metric : 0.1994
+
+Contingency table (Partition1 x Partition2):
+1	4	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	5	5	0	5	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	5	5	5	5	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	5	0	5	5	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	5	5	5	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5

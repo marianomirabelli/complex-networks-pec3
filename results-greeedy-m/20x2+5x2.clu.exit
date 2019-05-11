@@ -1,0 +1,35 @@
+Partition1: ../../results-greeedy-m/20x2+5x2.clu
+Partition2: ../../files/toy/20x2+5x2.clu
+
+Number of Lists(1) : 3
+Number of Lists(2) : 4
+
+Same Class Agreements : 400
+Agreements            : 1200
+Disagreements(1)      : 25
+Disagreements(2)      : 0       (Partition2 inside Partition1)
+Disagreements         : 25
+Pairs                 : 1225
+
+Jaccard Index         : 0.9412
+Rand Index            : 0.9796
+Adjusted Rand Index   : 0.9543
+Fowlkes Mallows Index : 0.9701
+Normalized Mutual Information Index (maximum)    : 0.8839
+Normalized Mutual Information Index (arithmetic) : 0.9383
+Normalized Mutual Information Index (geometric)  : 0.9401
+Normalized Mutual Information Index (minimum)    : 1.0000
+Asymmetric Wallace Index(1) : 0.9412
+Asymmetric Wallace Index(2) : 1.0000       (Partition2 inside Partition1)
+
+Mirkin Metric                   : 50.0000
+Van Dongen Metric               : 5.0000
+Variation Of Information Metric : 0.2000
+Normalized Mirkin Metric                   : 0.0204
+Normalized Van Dongen Metric               : 0.0500
+Normalized Variation Of Information Metric : 0.0354
+
+Contingency table (Partition1 x Partition2):
+20	0	0	0
+0	20	0	0
+0	0	5	5

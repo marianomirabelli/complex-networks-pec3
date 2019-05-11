@@ -1,0 +1,42 @@
+Partition1: ../../results-greeedy-m/256_4_4_2_15_18_p.clu
+Partition2: ../../files/model/256_4_4_2_15_18_p.clu
+
+Number of Lists(1) : 10
+Number of Lists(2) : 16
+
+Same Class Agreements : 1905
+Agreements            : 30817
+Disagreements(1)      : 1808
+Disagreements(2)      : 15
+Disagreements         : 1823
+Pairs                 : 32640
+
+Jaccard Index         : 0.5110
+Rand Index            : 0.9441
+Adjusted Rand Index   : 0.6492
+Fowlkes Mallows Index : 0.7135
+Normalized Mutual Information Index (maximum)    : 0.7954
+Normalized Mutual Information Index (arithmetic) : 0.8834
+Normalized Mutual Information Index (geometric)  : 0.8889
+Normalized Mutual Information Index (minimum)    : 0.9934
+Asymmetric Wallace Index(1) : 0.5131
+Asymmetric Wallace Index(2) : 0.9922
+
+Mirkin Metric                   : 3646.0000
+Van Dongen Metric               : 97.0000
+Variation Of Information Metric : 0.8395
+Normalized Mirkin Metric                   : 0.0559
+Normalized Van Dongen Metric               : 0.1895
+Normalized Variation Of Information Metric : 0.1049
+
+Contingency table (Partition1 x Partition2):
+16	16	0	16	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	15	16	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	1	0	16	16	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	16	0	16	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	16	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	16	0	0	16
+0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0

@@ -1,4 +1,4 @@
-Partition1: ../../results/zachary_unwh.clu
+Partition1: ../../results-kclique/zachary_unwh.clu
 Partition2: ../../files/real/zachary_unwh.clu
 
 Number of Lists(1) : 5

@@ -1,4 +1,4 @@
-Partition1: ../../results/dolphins.clu
+Partition1: ../../results-kclique/dolphins.clu
 Partition2: ../../files/real/dolphins.clu
 
 Number of Lists(1) : 20

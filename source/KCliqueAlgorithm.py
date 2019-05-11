@@ -12,7 +12,7 @@ def exectueCliqueAlgorithm(directory):
         multigraph = nx.read_pajek(file)
         modelGraph = nx.Graph(multigraph)
         file_name = file.split(".")[0]+ ".clu"
-        file_directory = os.path.join("../../results/",file_name)
+        file_directory = os.path.join("../../results-kclique/",file_name)
         f = open(file_directory, "w+")
         communities = community.k_clique_communities(modelGraph,3)
 
@@ -42,12 +42,12 @@ def exectueCliqueAlgorithm(directory):
             if("rb125" in file_name):
                 index = 1
                 while(index<=3):
-                    os.system("./Compare_Partitions.exe ../../results/" + file_name + " ../" + directory
-                              + "rb125-"+str(index)+".clu" + " ../../results/" + file_name + "-"+str(index) + ".exit " + " V")
+                    os.system("./Compare_Partitions.exe ../../results-kclique/" + file_name + " ../" + directory
+                              + "rb125-"+str(index)+".clu" + " ../../results-kclique/" + file_name + "-"+str(index) + ".exit " + " V")
                     index+=1
         else:
-            os.system("./Compare_Partitions.exe ../../results/" + file_name + " ../" + directory
-                      + file_name + " ../../results/" + file_name + ".exit " + " V")
+            os.system("./Compare_Partitions.exe ../../results-kclique/" + file_name + " ../" + directory
+                      + file_name + " ../../results-kclique/" + file_name + ".exit " + " V")
 
         os.chdir("../" + directory)
     os.chdir("../../source")

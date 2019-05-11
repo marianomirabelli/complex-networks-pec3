@@ -1,4 +1,4 @@
-Partition1: ../../results/graph4+4.clu
+Partition1: ../../results-kclique/graph4+4.clu
 Partition2: ../../files/toy/graph4+4.clu
 
 Number of Lists(1) : 2

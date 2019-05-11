@@ -1,4 +1,4 @@
-Partition1: ../../results/star.clu
+Partition1: ../../results-kclique/star.clu
 Partition2: ../../files/toy/star.clu
 
 Number of Lists(1) : 9

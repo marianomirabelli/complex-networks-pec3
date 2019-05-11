@@ -1,4 +1,4 @@
-Partition1: ../../results/cat_cortex_sim.clu
+Partition1: ../../results-kclique/cat_cortex_sim.clu
 Partition2: ../../files/real/cat_cortex_sim.clu
 
 Number of Lists(1) : 1

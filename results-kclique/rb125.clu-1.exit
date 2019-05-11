@@ -1,4 +1,4 @@
-Partition1: ../../results/rb125.clu
+Partition1: ../../results-kclique/rb125.clu
 Partition2: ../../files/model/rb125-1.clu
 
 Number of Lists(1) : 25

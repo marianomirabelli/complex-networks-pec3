@@ -1,4 +1,4 @@
-Partition1: ../../results/football.clu
+Partition1: ../../results-kclique/football.clu
 Partition2: ../../files/real/football.clu
 
 Number of Lists(1) : 4

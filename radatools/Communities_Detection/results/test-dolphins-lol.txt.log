@@ -1,0 +1,314 @@
+=====================================
+Starting 10 Reposition
+  End rep
+End of 10 Reposition
+Q(r) = 0.523338   (0.001s)
+=====================================
+Starting 10 Tabu
+  Q = 0.527728   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.527728   comms = 5
+  End rep
+  Q = 0.527728   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.527728   comms = 5
+  End rep
+  Q = 0.527728   comms = 5
+  End rep
+  Q = 0.527728   comms = 5
+  End rep
+End of 10 Tabu
+Q(t) = 0.528519   (0.290s)
+=====================================
+Ini_Default
+=====================================
+Starting 10 Louvain
+  Q = 0.377576   comms = 19
+  Q = 0.479847   comms = 11
+  Q = 0.495214   comms = 10
+  resizing
+  Q = 0.495214   comms = 10
+  Q = 0.518828   comms = 5
+  resizing
+  Q = 0.518828   comms = 5
+  End rep
+End of 10 Louvain
+Q(l) = 0.518828   (0.076s)
+=====================================
+Starting 10 Louvain
+  Q = 0.524109   comms = 5
+  resizing
+  Q = 0.524109   comms = 5
+  End rep
+End of 10 Louvain
+Q(l) = 0.524109   (0.002s)
+=====================================
+Starting 10 Tabu
+  Q = 0.527728   comms = 5
+  End rep
+  Q = 0.525652   comms = 5
+  End rep
+  Q = 0.527728   comms = 5
+  End rep
+  Q = 0.527728   comms = 5
+  End rep
+  Q = 0.527728   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.527610   comms = 5
+  End rep
+  Q = 0.527728   comms = 5
+  End rep
+  Q = 0.527728   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+End of 10 Tabu
+Q(t) = 0.528519   (0.244s)
+=====================================
+Ini_Default
+=====================================
+Starting 10 Extremal
+  Q = 0.402733   comms = 2
+  Q = 0.476544   comms = 3
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.402733   comms = 2
+  Q = 0.452652   comms = 3
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.402733   comms = 2
+  Q = 0.476544   comms = 3
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.402733   comms = 2
+  Q = 0.448618   comms = 3
+  Q = 0.522428   comms = 4
+  End rep
+  Q = 0.402733   comms = 2
+  Q = 0.452652   comms = 3
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.402733   comms = 2
+  Q = 0.476544   comms = 3
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.402733   comms = 2
+  Q = 0.452652   comms = 3
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.402733   comms = 2
+  Q = 0.476544   comms = 3
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.402733   comms = 2
+  Q = 0.476544   comms = 3
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.402733   comms = 2
+  Q = 0.452652   comms = 3
+  Q = 0.526463   comms = 4
+  End rep
+End of 10 Extremal
+Q(e) = 0.526463   (0.074s)
+=====================================
+Starting 10 Reposition
+  End rep
+End of 10 Reposition
+Q(r) = 0.526463   (0.002s)
+=====================================
+Starting 10 Tabu
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.526799   comms = 4
+  End rep
+  Q = 0.526799   comms = 4
+  End rep
+  Q = 0.526799   comms = 4
+  End rep
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.526463   comms = 4
+  End rep
+End of 10 Tabu
+Q(t) = 0.528519   (0.222s)
+=====================================
+Ini_Together
+=====================================
+Starting 10 Spectral
+  Q = 0.389858   comms = 2
+  Q = 0.392053   comms = 3
+  Q = 0.484020   comms = 4
+  Q = 0.491199   comms = 5
+  End rep
+  Q = 0.389858   comms = 2
+  Q = 0.481824   comms = 3
+  Q = 0.489004   comms = 4
+  Q = 0.491199   comms = 5
+  End rep
+  Q = 0.389858   comms = 2
+  Q = 0.481824   comms = 3
+  Q = 0.489004   comms = 4
+  Q = 0.491199   comms = 5
+  End rep
+  Q = 0.389858   comms = 2
+  Q = 0.392053   comms = 3
+  Q = 0.484020   comms = 4
+  Q = 0.491199   comms = 5
+  End rep
+  Q = 0.389858   comms = 2
+  Q = 0.392053   comms = 3
+  Q = 0.484020   comms = 4
+  Q = 0.491199   comms = 5
+  End rep
+  Q = 0.389858   comms = 2
+  Q = 0.392053   comms = 3
+  Q = 0.484020   comms = 4
+  Q = 0.491199   comms = 5
+  End rep
+  Q = 0.389858   comms = 2
+  Q = 0.392053   comms = 3
+  Q = 0.484020   comms = 4
+  Q = 0.491199   comms = 5
+  End rep
+  Q = 0.389858   comms = 2
+  Q = 0.481824   comms = 3
+  Q = 0.489004   comms = 4
+  Q = 0.491199   comms = 5
+  End rep
+  Q = 0.389858   comms = 2
+  Q = 0.392053   comms = 3
+  Q = 0.484020   comms = 4
+  Q = 0.491199   comms = 5
+  End rep
+  Q = 0.389858   comms = 2
+  Q = 0.392053   comms = 3
+  Q = 0.484020   comms = 4
+  Q = 0.491199   comms = 5
+  End rep
+End of 10 Spectral
+Q(s) = 0.491199   (0.268s)
+=====================================
+Starting 10 Reposition
+  Q = 0.510957   comms = 5
+  End rep
+End of 10 Reposition
+Q(r) = 0.510957   (0.002s)
+=====================================
+Starting 10 Tabu
+  Q = 0.519323   comms = 5
+  End rep
+  Q = 0.518789   comms = 5
+  End rep
+  Q = 0.520114   comms = 5
+  End rep
+  Q = 0.518591   comms = 5
+  End rep
+  Q = 0.520114   comms = 5
+  End rep
+  Q = 0.519323   comms = 5
+  End rep
+  Q = 0.519323   comms = 5
+  End rep
+  Q = 0.519323   comms = 5
+  End rep
+  Q = 0.519323   comms = 5
+  End rep
+  Q = 0.520114   comms = 5
+  End rep
+End of 10 Tabu
+Q(t) = 0.520114   (0.216s)
+=====================================
+Ini_Isolated
+=====================================
+Starting 10 Fast
+  Q = 0.431648   comms = 12
+  Q = 0.501187   comms = 4
+  End rep
+End of 10 Fast
+Q(f) = 0.501187   (0.004s)
+=====================================
+Starting 10 Tabu
+  Q = 0.526799   comms = 4
+  End rep
+  Q = 0.526799   comms = 4
+  End rep
+  Q = 0.526799   comms = 4
+  End rep
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.526799   comms = 4
+  End rep
+  Q = 0.526799   comms = 4
+  End rep
+  Q = 0.526463   comms = 4
+  End rep
+  Q = 0.526799   comms = 4
+  End rep
+  Q = 0.526799   comms = 4
+  End rep
+  Q = 0.526463   comms = 4
+  End rep
+End of 10 Tabu
+Q(t) = 0.526799   (0.269s)
+=====================================
+Ini_Best
+=====================================
+Starting 10 Tabu
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+  Q = 0.528519   comms = 5
+  End rep
+End of 10 Tabu
+Q(t) = 0.528519   (0.163s)
+=====================================
+Starting 10 Reposition
+  End rep
+End of 10 Reposition
+Q(r) = 0.528519   (0.002s)
+=====================================
+Starting 10 Fast
+  Q = 0.528519   comms = 5
+  End rep
+End of 10 Fast
+Q(f) = 0.528519   (0.001s)
+=====================================
+Starting 10 Reposition
+  End rep
+End of 10 Reposition
+Q(r) = 0.528519   (0.001s)
+=====================================
+Q_Best = 0.528519   (1.839s)   communities: 5   parameters: WN rt-llt-ert+srt.ft!trfr 10

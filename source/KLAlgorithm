@@ -4,7 +4,7 @@ import stat
 from networkx.algorithms import community
 
 
-def executeKLAlgorithm(directory):
+def exectueCliqueAlgorithm(directory):
 
     os.chdir(directory)
     for file in glob.glob("*.net"):
@@ -14,7 +14,7 @@ def executeKLAlgorithm(directory):
         file_name = file.split(".")[0]+ ".clu"
         file_directory = os.path.join("../../results/",file_name)
         f = open(file_directory, "w+")
-        communities = community.kernighan_lin_bisection(modelGraph)
+        communities = community.k_clique_communities(modelGraph,3)
 
         lines = [None] * (len(modelGraph)+1)
         group_number = 1
@@ -26,30 +26,42 @@ def executeKLAlgorithm(directory):
                 index = int(id)
                 lines[index] = group_as_string
             group_number+=1
+
         lines[0] = "*Vertices " + str(len(modelGraph))
+        for index, x in enumerate(lines):
+            if x is None:
+                lines[index] = str(group_number)
+                group_number += 1
         f.writelines('\n'.join(lines))
         f.write("\n")
         f.close()
         os.chdir("../../radatools/Communities_Tools/")
         st = os.stat('./Compare_Partitions.exe')
         os.chmod("./Compare_Partitions.exe", st.st_mode | stat.S_IEXEC)
-        if("rb125" in file_name):
-            index = 1
-            while(index<=3):
-                os.system("./Compare_Partitions.exe ../../results/" + file_name + " ../" + directory
-                          + "rb125-"+str(index)+".clu" + " ../../results/" + file_name + "-"+str(index) + ".exit " + " V")
-                index+=1
+        if "model" in directory:
+            if("rb125" in file_name):
+                index = 1
+                while(index<=3):
+                    os.system("./Compare_Partitions.exe ../../results/" + file_name + " ../" + directory
+                              + "rb125-"+str(index)+".clu" + " ../../results/" + file_name + "-"+str(index) + ".exit " + " V")
+                    index+=1
         else:
-            os.system("./Compare_Partitions.exe ../../results/" + file_name + " ../" + directory
-                      + file_name + " ../../results/" + file_name + ".exit " + " V")
-        os.chdir( "../" + directory)
+            if "real" in directory:
+                print("Real Networks")
+            else:
+                os.system("./Compare_Partitions.exe ../../results/" + file_name + " ../" + directory
+                          + file_name + " ../../results/" + file_name + ".exit " + " V")
+
+        os.chdir("../" + directory)
+    os.chdir("../../source")
 
 
 def main():
 
     #realFiles = os.listdir("../files/real/")
     #toyFiles = os.listdir("../files/toy/")
-    executeKLAlgorithm("../files/model/")
+    exectueCliqueAlgorithm("../files/model/")
+    exectueCliqueAlgorithm("../files/toy/")
 
 main()
 

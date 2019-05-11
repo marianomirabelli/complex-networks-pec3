@@ -1,34 +1,57 @@
 Partition1: ../../results/rb125.clu
 Partition2: ../../files/model/rb125-2.clu
 
-Number of Lists(1) : 2
+Number of Lists(1) : 25
 Number of Lists(2) : 25
 
-Same Class Agreements : 244
-Agreements            : 4144
-Disagreements(1)      : 3600
-Disagreements(2)      : 6
-Disagreements         : 3606
+Same Class Agreements : 238
+Agreements            : 7723
+Disagreements(1)      : 15
+Disagreements(2)      : 12
+Disagreements         : 27
 Pairs                 : 7750
 
-Jaccard Index         : 0.0634
-Rand Index            : 0.5347
-Adjusted Rand Index   : 0.0624
-Fowlkes Mallows Index : 0.2489
-Normalized Mutual Information Index (maximum)    : 0.2070
-Normalized Mutual Information Index (arithmetic) : 0.3406
-Normalized Mutual Information Index (geometric)  : 0.4460
-Normalized Mutual Information Index (minimum)    : 0.9612
-Asymmetric Wallace Index(1) : 0.0635
-Asymmetric Wallace Index(2) : 0.9760
+Jaccard Index         : 0.8981
+Rand Index            : 0.9965
+Adjusted Rand Index   : 0.9445
+Fowlkes Mallows Index : 0.9463
+Normalized Mutual Information Index (maximum)    : 0.9798
+Normalized Mutual Information Index (arithmetic) : 0.9806
+Normalized Mutual Information Index (geometric)  : 0.9806
+Normalized Mutual Information Index (minimum)    : 0.9813
+Asymmetric Wallace Index(1) : 0.9407
+Asymmetric Wallace Index(2) : 0.9520
 
-Mirkin Metric                   : 7212.0000
-Van Dongen Metric               : 117.0000
-Variation Of Information Metric : 3.7216
-Normalized Mirkin Metric                   : 0.4653
-Normalized Van Dongen Metric               : 0.4680
-Normalized Variation Of Information Metric : 0.5343
+Mirkin Metric                   : 54.0000
+Van Dongen Metric               : 6.0000
+Variation Of Information Metric : 0.1802
+Normalized Mirkin Metric                   : 0.0035
+Normalized Van Dongen Metric               : 0.0240
+Normalized Variation Of Information Metric : 0.0259
 
 Contingency table (Partition1 x Partition2):
-2	0	5	5	0	0	0	0	0	0	5	5	5	5	5	5	5	5	5	5	0	0	0	0	0
-3	5	0	0	5	5	5	5	5	5	0	0	0	0	0	0	0	0	0	0	5	5	5	5	5
+5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	1	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	1	0	0	5	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5

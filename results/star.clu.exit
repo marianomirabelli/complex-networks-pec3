@@ -1,0 +1,41 @@
+Partition1: ../../results/star.clu
+Partition2: ../../files/toy/star.clu
+
+Number of Lists(1) : 9
+Number of Lists(2) : 1
+
+Same Class Agreements : 0
+Agreements            : 0
+Disagreements(1)      : 0       (Partition1 inside Partition2)
+Disagreements(2)      : 36
+Disagreements         : 36
+Pairs                 : 36
+
+Jaccard Index         : 0.0000
+Rand Index            : 0.0000
+Adjusted Rand Index   : 0.0000
+Fowlkes Mallows Index : 0.0000
+Normalized Mutual Information Index (maximum)    : 0.0000
+Normalized Mutual Information Index (arithmetic) : 0.0000
+Normalized Mutual Information Index (geometric)  : 0.0000
+Normalized Mutual Information Index (minimum)    : 0.0000
+Asymmetric Wallace Index(1) : 1.0000       (Partition1 inside Partition2)
+Asymmetric Wallace Index(2) : 0.0000
+
+Mirkin Metric                   : 72.0000
+Van Dongen Metric               : 8.0000
+Variation Of Information Metric : 3.1699
+Normalized Mirkin Metric                   : 1.0000
+Normalized Van Dongen Metric               : 0.4444
+Normalized Variation Of Information Metric : 1.0000
+
+Contingency table (Partition1 x Partition2):
+1
+1
+1
+1
+1
+1
+1
+1
+1

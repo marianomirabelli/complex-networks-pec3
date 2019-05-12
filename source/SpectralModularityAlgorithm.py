@@ -1,7 +1,7 @@
 import glob, os, io
 import stat
 
-def exectueCliqueAlgorithm(directory):
+def execute(directory):
 
     os.chdir(directory)
     for file in glob.glob("*.net"):
@@ -44,8 +44,8 @@ def exectueCliqueAlgorithm(directory):
 
 def main():
 
-    exectueCliqueAlgorithm("../files/model/")
-    exectueCliqueAlgorithm("../files/toy/")
-    exectueCliqueAlgorithm("../files/real/")
+    execute("../files/model/")
+    execute("../files/toy/")
+    execute("../files/real/")
 
 main()

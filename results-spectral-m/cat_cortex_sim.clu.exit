@@ -1,0 +1,35 @@
+Partition1: ../../results-spectral-m/cat_cortex_sim.clu
+Partition2: ../../files/real/cat_cortex_sim.clu
+
+Number of Lists(1) : 3
+Number of Lists(2) : 4
+
+Same Class Agreements : 309
+Agreements            : 1230
+Disagreements(1)      : 182
+Disagreements(2)      : 73
+Disagreements         : 255
+Pairs                 : 1485
+
+Jaccard Index         : 0.5479
+Rand Index            : 0.8283
+Adjusted Rand Index   : 0.5890
+Fowlkes Mallows Index : 0.7135
+Normalized Mutual Information Index (maximum)    : 0.5597
+Normalized Mutual Information Index (arithmetic) : 0.6187
+Normalized Mutual Information Index (geometric)  : 0.6221
+Normalized Mutual Information Index (minimum)    : 0.6914
+Asymmetric Wallace Index(1) : 0.6293
+Asymmetric Wallace Index(2) : 0.8089
+
+Mirkin Metric                   : 510.0000
+Van Dongen Metric               : 18.0000
+Variation Of Information Metric : 1.3328
+Normalized Mirkin Metric                   : 0.1717
+Normalized Van Dongen Metric               : 0.1636
+Normalized Variation Of Information Metric : 0.2305
+
+Contingency table (Partition1 x Partition2):
+13	1	0	0
+2	0	17	2
+1	6	0	13

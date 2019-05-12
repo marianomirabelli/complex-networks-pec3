@@ -1,0 +1,33 @@
+Partition1: ../../results-kclique/256_4_4_2_15_18_p.clu
+Partition2: ../../files/model/256_4_4_2_15_18_p.clu
+
+Number of Lists(1) : 1
+Number of Lists(2) : 16
+
+Same Class Agreements : 1920
+Agreements            : 1920
+Disagreements(1)      : 30720
+Disagreements(2)      : 0       (Partition2 inside Partition1)
+Disagreements         : 30720
+Pairs                 : 32640
+
+Jaccard Index         : 0.0588
+Rand Index            : 0.0588
+Adjusted Rand Index   : 0.0000
+Fowlkes Mallows Index : 0.2425
+Normalized Mutual Information Index (maximum)    : 0.0000
+Normalized Mutual Information Index (arithmetic) : 0.0000
+Normalized Mutual Information Index (geometric)  : 0.0000
+Normalized Mutual Information Index (minimum)    : 0.0000
+Asymmetric Wallace Index(1) : 0.0588
+Asymmetric Wallace Index(2) : 1.0000       (Partition2 inside Partition1)
+
+Mirkin Metric                   : 61440.0000
+Van Dongen Metric               : 240.0000
+Variation Of Information Metric : 4.0000
+Normalized Mirkin Metric                   : 0.9412
+Normalized Van Dongen Metric               : 0.4688
+Normalized Variation Of Information Metric : 0.5000
+
+Contingency table (Partition1 x Partition2):
+16	16	16	16	16	16	16	16	16	16	16	16	16	16	16	16

@@ -1,0 +1,40 @@
+Partition1: ../../results-spectral-m/football.clu
+Partition2: ../../files/real/football.clu
+
+Number of Lists(1) : 8
+Number of Lists(2) : 12
+
+Same Class Agreements : 378
+Agreements            : 5854
+Disagreements(1)      : 556
+Disagreements(2)      : 145
+Disagreements         : 701
+Pairs                 : 6555
+
+Jaccard Index         : 0.3503
+Rand Index            : 0.8931
+Adjusted Rand Index   : 0.4641
+Fowlkes Mallows Index : 0.5408
+Normalized Mutual Information Index (maximum)    : 0.6320
+Normalized Mutual Information Index (arithmetic) : 0.6987
+Normalized Mutual Information Index (geometric)  : 0.7026
+Normalized Mutual Information Index (minimum)    : 0.7811
+Asymmetric Wallace Index(1) : 0.4047
+Asymmetric Wallace Index(2) : 0.7228
+
+Mirkin Metric                   : 1402.0000
+Van Dongen Metric               : 65.0000
+Variation Of Information Metric : 1.9321
+Normalized Mirkin Metric                   : 0.1069
+Normalized Van Dongen Metric               : 0.2826
+Normalized Variation Of Information Metric : 0.2822
+
+Contingency table (Partition1 x Partition2):
+8	0	0	0	8	2	0	0	0	1	1	0
+0	8	0	0	0	0	0	1	0	0	0	0
+0	0	8	5	2	0	0	0	0	0	1	0
+0	0	0	7	0	1	0	0	0	0	0	0
+0	1	3	0	0	0	13	0	8	0	3	0
+0	0	0	0	0	2	0	11	0	1	0	0
+0	0	0	0	0	2	0	0	0	8	0	1
+0	0	0	0	0	0	0	0	0	0	0	9

@@ -1,47 +1,45 @@
 Partition1: ../../results-extremal-m/256_4_4_2_15_18_p.clu
 Partition2: ../../files/model/256_4_4_2_15_18_p.clu
 
-Number of Lists(1) : 16
+Number of Lists(1) : 14
 Number of Lists(2) : 16
 
 Same Class Agreements : 1920
-Agreements            : 32640
-Disagreements(1)      : 0       (Partition1 inside Partition2)
+Agreements            : 32128
+Disagreements(1)      : 512
 Disagreements(2)      : 0       (Partition2 inside Partition1)
-Disagreements         : 0       (Partition1 = Partition2)
+Disagreements         : 512
 Pairs                 : 32640
 
-Jaccard Index         : 1.0000
-Rand Index            : 1.0000
-Adjusted Rand Index   : 1.0000
-Fowlkes Mallows Index : 1.0000
-Normalized Mutual Information Index (maximum)    : 1.0000
-Normalized Mutual Information Index (arithmetic) : 1.0000
-Normalized Mutual Information Index (geometric)  : 1.0000
+Jaccard Index         : 0.7895
+Rand Index            : 0.9843
+Adjusted Rand Index   : 0.8741
+Fowlkes Mallows Index : 0.8885
+Normalized Mutual Information Index (maximum)    : 0.9375
+Normalized Mutual Information Index (arithmetic) : 0.9677
+Normalized Mutual Information Index (geometric)  : 0.9682
 Normalized Mutual Information Index (minimum)    : 1.0000
-Asymmetric Wallace Index(1) : 1.0000       (Partition1 inside Partition2)
+Asymmetric Wallace Index(1) : 0.7895
 Asymmetric Wallace Index(2) : 1.0000       (Partition2 inside Partition1)
 
-Mirkin Metric                   : 0.0000
-Van Dongen Metric               : 0.0000
-Variation Of Information Metric : 0.0000
-Normalized Mirkin Metric                   : 0.0000
-Normalized Van Dongen Metric               : 0.0000
-Normalized Variation Of Information Metric : 0.0000
+Mirkin Metric                   : 1024.0000
+Van Dongen Metric               : 32.0000
+Variation Of Information Metric : 0.2500
+Normalized Mirkin Metric                   : 0.0157
+Normalized Van Dongen Metric               : 0.0625
+Normalized Variation Of Information Metric : 0.0313
 
 Contingency table (Partition1 x Partition2):
 16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 0	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	16	0	0	0	0	16	0	0	0	0	0	0	0	0
 0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0
 0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0
 0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0
 0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0
-0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0
 0	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0
 0	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0
-0	0	0	0	0	0	0	0	0	0	16	0	0	0	0	0
-0	0	0	0	0	0	0	0	0	0	0	16	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	16	16	0	0	0	0
 0	0	0	0	0	0	0	0	0	0	0	0	16	0	0	0
 0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	0
 0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0

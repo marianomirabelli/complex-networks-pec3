@@ -1,0 +1,45 @@
+Partition1: ../../results-spectral-m/256_4_4_2_15_18_p.clu
+Partition2: ../../files/model/256_4_4_2_15_18_p.clu
+
+Number of Lists(1) : 13
+Number of Lists(2) : 16
+
+Same Class Agreements : 1892
+Agreements            : 31044
+Disagreements(1)      : 1568
+Disagreements(2)      : 28
+Disagreements         : 1596
+Pairs                 : 32640
+
+Jaccard Index         : 0.5424
+Rand Index            : 0.9511
+Adjusted Rand Index   : 0.6791
+Fowlkes Mallows Index : 0.7341
+Normalized Mutual Information Index (maximum)    : 0.8662
+Normalized Mutual Information Index (arithmetic) : 0.9241
+Normalized Mutual Information Index (geometric)  : 0.9261
+Normalized Mutual Information Index (minimum)    : 0.9903
+Asymmetric Wallace Index(1) : 0.5468
+Asymmetric Wallace Index(2) : 0.9854
+
+Mirkin Metric                   : 3192.0000
+Van Dongen Metric               : 52.0000
+Variation Of Information Metric : 0.5694
+Normalized Mirkin Metric                   : 0.0489
+Normalized Van Dongen Metric               : 0.1016
+Normalized Variation Of Information Metric : 0.0712
+
+Contingency table (Partition1 x Partition2):
+16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	14	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	2	16	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	16	16	16	16	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	16	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16

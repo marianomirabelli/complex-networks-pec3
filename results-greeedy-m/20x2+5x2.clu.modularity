@@ -1,0 +1,19 @@
+
+
+===================================================================
+== Radalib, Copyright (c) 2018 by                                ==
+==   Sergio Gomez             (sergio.gomez@urv.cat)             ==
+==   Alberto Fernandez        (alberto.fernandez@urv.cat)        ==
+== See LICENSE.txt                                               ==
+===================================================================
+== Calculate the total modularity, decomposed in node            ==
+== and community contributions                                   ==
+===================================================================
+
+
+../../files/toy/20x2+5x2.net + ../../results-greeedy-m/20x2+5x2.clu  (UN, resistance: 0, penalty coefficient: 0):
+  Q =  0.99257426 =  0.99257426 -  0.00000000
+    Q(1) =  0.47029703 =  0.47029703 -  0.00000000     (20 nodes)
+    Q(2) =  0.47029703 =  0.47029703 -  0.00000000     (20 nodes)
+    Q(3) =  0.05198020 =  0.05198020 -  0.00000000     (10 nodes)
+

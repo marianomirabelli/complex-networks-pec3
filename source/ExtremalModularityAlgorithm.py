@@ -6,6 +6,10 @@ def execute(directory):
     os.chdir(directory)
     for file in glob.glob("*.net"):
 
+        lol_file_name = file.split(".")[0] + ".lol"
+        clu_file_name = file.split(".")[0] + ".clu"
+        input_directory = os.path.join("../" + directory, file)
+        '''
         lol_file_name = file.split(".")[0]+ ".lol"
         clu_file_name = file.split(".")[0]+ ".clu"
         input_directory = os.path.join("../" + directory,file)
@@ -35,6 +39,12 @@ def execute(directory):
                       + clu_file_name + " ../../results-extremal-m/" + clu_file_name + ".exit " + " V")
 
         os.chdir("../" + directory)
+        '''
+        os.chdir("../../radatools/Communities_Tools/")
+        st = os.stat('./Modularity_Calculation.exe')
+        os.chmod("./Modularity_Calculation.exe", st.st_mode | stat.S_IEXEC)
+        os.system("./Modularity_Calculation.exe " + input_directory + " ../../results-extremal-m/" + clu_file_name
+                   + " 0 0 UN TC 2 >> " + " ../../results-extremal-m/" + clu_file_name + ".modularity")
 
     os.chdir("../../results-extremal-m/")
     os.system("rm *.log")

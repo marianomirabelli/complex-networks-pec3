@@ -1,0 +1,60 @@
+
+
+===================================================================
+== Radalib, Copyright (c) 2018 by                                ==
+==   Sergio Gomez             (sergio.gomez@urv.cat)             ==
+==   Alberto Fernandez        (alberto.fernandez@urv.cat)        ==
+== See LICENSE.txt                                               ==
+===================================================================
+== Calculate the total modularity, decomposed in node            ==
+== and community contributions                                   ==
+===================================================================
+
+
+raised ADA.IO_EXCEPTIONS.NAME_ERROR : ../files/real/dolphins.net: No such file or directory
+raised ADA.IO_EXCEPTIONS.STATUS_ERROR : System.File_IO.Check_File_Open: file not open
+
+
+
+===================================================================
+== Radalib, Copyright (c) 2018 by                                ==
+==   Sergio Gomez             (sergio.gomez@urv.cat)             ==
+==   Alberto Fernandez        (alberto.fernandez@urv.cat)        ==
+== See LICENSE.txt                                               ==
+===================================================================
+== Calculate the total modularity, decomposed in node            ==
+== and community contributions                                   ==
+===================================================================
+
+
+../../files/real/dolphins.net + ../../results-label-p/dolphins.clu  (UN, resistance: 0, penalty coefficient: 0):
+  Q =  0.78616352 =  0.78616352 -  0.00000000
+    Q(1) =  0.05031447 =  0.05031447 -  0.00000000     (5 nodes)
+    Q(2) =  0.30188679 =  0.30188679 -  0.00000000     (23 nodes)
+    Q(3) =  0.27044025 =  0.27044025 -  0.00000000     (18 nodes)
+    Q(4) =  0.15094340 =  0.15094340 -  0.00000000     (12 nodes)
+    Q(5) =  0.00628931 =  0.00628931 -  0.00000000     (2 nodes)
+    Q(6) =  0.00628931 =  0.00628931 -  0.00000000     (2 nodes)
+
+
+
+===================================================================
+== Radalib, Copyright (c) 2018 by                                ==
+==   Sergio Gomez             (sergio.gomez@urv.cat)             ==
+==   Alberto Fernandez        (alberto.fernandez@urv.cat)        ==
+== See LICENSE.txt                                               ==
+===================================================================
+== Calculate the total modularity, decomposed in node            ==
+== and community contributions                                   ==
+===================================================================
+
+
+../../files/real/dolphins.net + ../../results-label-p/dolphins.clu  (UN, resistance: 0, penalty coefficient: 0):
+  Q =  0.78616352 =  0.78616352 -  0.00000000
+    Q(1) =  0.05031447 =  0.05031447 -  0.00000000     (5 nodes)
+    Q(2) =  0.30188679 =  0.30188679 -  0.00000000     (23 nodes)
+    Q(3) =  0.27044025 =  0.27044025 -  0.00000000     (18 nodes)
+    Q(4) =  0.15094340 =  0.15094340 -  0.00000000     (12 nodes)
+    Q(5) =  0.00628931 =  0.00628931 -  0.00000000     (2 nodes)
+    Q(6) =  0.00628931 =  0.00628931 -  0.00000000     (2 nodes)
+

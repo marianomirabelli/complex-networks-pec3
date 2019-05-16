@@ -1,0 +1,20 @@
+
+
+===================================================================
+== Radalib, Copyright (c) 2018 by                                ==
+==   Sergio Gomez             (sergio.gomez@urv.cat)             ==
+==   Alberto Fernandez        (alberto.fernandez@urv.cat)        ==
+== See LICENSE.txt                                               ==
+===================================================================
+== Calculate the total modularity, decomposed in node            ==
+== and community contributions                                   ==
+===================================================================
+
+
+../../files/real/zachary_unwh.net + ../../results-spectral-m/zachary_unwh.clu  (UN, resistance: 0, penalty coefficient: 0):
+  Q =  0.66666667 =  0.66666667 -  0.00000000
+    Q(1) =  0.14102564 =  0.14102564 -  0.00000000     (7 nodes)
+    Q(2) =  0.16666667 =  0.16666667 -  0.00000000     (9 nodes)
+    Q(3) =  0.26923077 =  0.26923077 -  0.00000000     (12 nodes)
+    Q(4) =  0.08974359 =  0.08974359 -  0.00000000     (6 nodes)
+

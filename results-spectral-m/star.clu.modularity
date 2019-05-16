@@ -1,0 +1,17 @@
+
+
+===================================================================
+== Radalib, Copyright (c) 2018 by                                ==
+==   Sergio Gomez             (sergio.gomez@urv.cat)             ==
+==   Alberto Fernandez        (alberto.fernandez@urv.cat)        ==
+== See LICENSE.txt                                               ==
+===================================================================
+== Calculate the total modularity, decomposed in node            ==
+== and community contributions                                   ==
+===================================================================
+
+
+../../files/toy/star.net + ../../results-spectral-m/star.clu  (UN, resistance: 0, penalty coefficient: 0):
+  Q =  1.00000000 =  1.00000000 -  0.00000000
+    Q(1) =  1.00000000 =  1.00000000 -  0.00000000     (9 nodes)
+

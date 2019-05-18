@@ -1,17 +1,2 @@
-
-
-===================================================================
-== Radalib, Copyright (c) 2018 by                                ==
-==   Sergio Gomez             (sergio.gomez@urv.cat)             ==
-==   Alberto Fernandez        (alberto.fernandez@urv.cat)        ==
-== See LICENSE.txt                                               ==
-===================================================================
-== Calculate the total modularity, decomposed in node            ==
-== and community contributions                                   ==
-===================================================================
-
-
-../../files/real/cat_cortex_sim.net + ../../results-greeedy-m/cat_cortex_sim.clu  (UN, resistance: 0, penalty coefficient: 0):
-  Q =  1.00000000 =  1.00000000 -  0.00000000
-    Q(1) =  1.00000000 =  1.00000000 -  0.00000000     (55 nodes)
-
+Q =  1.00000000 =  1.00000000 -  0.00000000
+Q(1) =  1.00000000 =  1.00000000 -  0.00000000     (55 nodes)

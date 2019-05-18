@@ -1,34 +1,3 @@
-
-
-===================================================================
-== Radalib, Copyright (c) 2018 by                                ==
-==   Sergio Gomez             (sergio.gomez@urv.cat)             ==
-==   Alberto Fernandez        (alberto.fernandez@urv.cat)        ==
-== See LICENSE.txt                                               ==
-===================================================================
-== Calculate the total modularity, decomposed in node            ==
-== and community contributions                                   ==
-===================================================================
-
-
-raised ADA.IO_EXCEPTIONS.NAME_ERROR : ../../../files/toy/graph4+4.net: No such file or directory
-raised ADA.IO_EXCEPTIONS.STATUS_ERROR : System.File_IO.Check_File_Open: file not open
-
-
-
-===================================================================
-== Radalib, Copyright (c) 2018 by                                ==
-==   Sergio Gomez             (sergio.gomez@urv.cat)             ==
-==   Alberto Fernandez        (alberto.fernandez@urv.cat)        ==
-== See LICENSE.txt                                               ==
-===================================================================
-== Calculate the total modularity, decomposed in node            ==
-== and community contributions                                   ==
-===================================================================
-
-
-../../files/toy/graph4+4.net + ../../results-extremal-m/graph4+4.clu  (UN, resistance: 0, penalty coefficient: 0):
-  Q =  0.92307692 =  0.92307692 -  0.00000000
-    Q(1) =  0.46153846 =  0.46153846 -  0.00000000     (4 nodes)
-    Q(2) =  0.46153846 =  0.46153846 -  0.00000000     (4 nodes)
-
+Q =  0.92307692 =  0.92307692 -  0.00000000
+Q(1) =  0.46153846 =  0.46153846 -  0.00000000     (4 nodes)
+Q(2) =  0.46153846 =  0.46153846 -  0.00000000     (4 nodes)

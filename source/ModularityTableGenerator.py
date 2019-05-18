@@ -53,8 +53,8 @@ def main():
     execute("../results-extremal-m/", workbook.add_worksheet('extremal-modularity'))
     execute("../results-greeedy-m/", workbook.add_worksheet('greedy-modularity'))
     execute("../results-kclique/", workbook.add_worksheet('kclique-modularity'))
-  # execute("../results-label-p/", workbook.add_worksheet('extremal-modularity'))
-  #  execute("../results-spectral-m/", workbook.add_worksheet('extremal-modularity'))
+    execute("../results-label-p/", workbook.add_worksheet('label-p-modularity'))
+    execute("../results-spectral-m/", workbook.add_worksheet('spectral-modularity'))
     workbook.close()
 
 main()

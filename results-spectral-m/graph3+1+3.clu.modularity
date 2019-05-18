@@ -1,18 +1,3 @@
-
-
-===================================================================
-== Radalib, Copyright (c) 2018 by                                ==
-==   Sergio Gomez             (sergio.gomez@urv.cat)             ==
-==   Alberto Fernandez        (alberto.fernandez@urv.cat)        ==
-== See LICENSE.txt                                               ==
-===================================================================
-== Calculate the total modularity, decomposed in node            ==
-== and community contributions                                   ==
-===================================================================
-
-
-../../files/toy/graph3+1+3.net + ../../results-spectral-m/graph3+1+3.clu  (UN, resistance: 0, penalty coefficient: 0):
-  Q =  0.87500000 =  0.87500000 -  0.00000000
-    Q(1) =  0.50000000 =  0.50000000 -  0.00000000     (4 nodes)
-    Q(2) =  0.37500000 =  0.37500000 -  0.00000000     (3 nodes)
-
+Q =  0.87500000 =  0.87500000 -  0.00000000
+Q(1) =  0.50000000 =  0.50000000 -  0.00000000     (4 nodes)
+Q(2) =  0.37500000 =  0.37500000 -  0.00000000     (3 nodes)

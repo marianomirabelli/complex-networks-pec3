@@ -9,7 +9,6 @@ def execute(directory):
     os.chdir(directory)
     for file in glob.glob("*.net"):
         file_name = file.split(".")[0] + ".clu"
-        '''
         multigraph = nx.read_pajek(file)
         modelGraph = nx.Graph(multigraph)
         file_name = file.split(".")[0]+ ".clu"
@@ -49,13 +48,13 @@ def execute(directory):
             os.system("./Compare_Partitions.exe ../../results-label-p/" + file_name + " ../" + directory
                       + file_name + " ../../results-label-p/" + file_name + ".exit " + " V")
 
-        os.chdir("../" + directory)
-'''
-        os.chdir("../../radatools/Communities_Tools/")
         st = os.stat('./Modularity_Calculation.exe')
         os.chmod("./Modularity_Calculation.exe", st.st_mode | stat.S_IEXEC)
         os.system("./Modularity_Calculation.exe ../" + directory + file + " ../../results-label-p/" + file_name
-                      + " 0 0 UN TC 2 >> " + " ../../results-label-p/" + file_name + ".modularity")
+                  + " 0 0 UN TC 2 >> " + " ../../results-label-p/" + file_name + ".modularity")
+        os.chdir("../" + directory)
+
+
     os.chdir("../../source")
 
 

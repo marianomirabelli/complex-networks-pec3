@@ -10,7 +10,6 @@ def execute(directory):
         lol_file_name = file.split(".")[0]+ ".lol"
         clu_file_name = file.split(".")[0]+ ".clu"
         input_directory = os.path.join("../" + directory,file)
-        '''
         lol_exit_directory = os.path.join("../../results-spectral-m/", lol_file_name)
         clu_exit_direcotry = os.path.join("../../results-spectral-m/", clu_file_name)
         os.chdir("../../radatools/Communities_Detection/")
@@ -35,8 +34,7 @@ def execute(directory):
         else:
             os.system("./Compare_Partitions.exe ../../results-spectral-m/" + clu_file_name + " ../" + directory
                       + clu_file_name + " ../../results-spectral-m/" + clu_file_name + ".exit " + " V")
-        '''
-        os.chdir("../../radatools/Communities_Tools/")
+
         st = os.stat('./Modularity_Calculation.exe')
         os.chmod("./Modularity_Calculation.exe", st.st_mode | stat.S_IEXEC)
         os.system("./Modularity_Calculation.exe " + input_directory + " ../../results-spectral-m/" + clu_file_name

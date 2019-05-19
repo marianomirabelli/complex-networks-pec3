@@ -11,7 +11,6 @@ def exectueCliqueAlgorithm(directory):
 
         file_name = file.split(".")[0] + ".clu"
 
-        '''
         multigraph = nx.read_pajek(file)
         modelGraph = nx.Graph(multigraph)
         file_name = file.split(".")[0]+ ".clu"
@@ -51,13 +50,13 @@ def exectueCliqueAlgorithm(directory):
             os.system("./Compare_Partitions.exe ../../results-greeedy-m/" + file_name + " ../" + directory
                       + file_name + " ../../results-greeedy-m/" + file_name + ".exit " + " V")
 
-        os.chdir("../" + directory)
-        '''
-        os.chdir("../../radatools/Communities_Tools/")
         st = os.stat('./Modularity_Calculation.exe')
         os.chmod("./Modularity_Calculation.exe", st.st_mode | stat.S_IEXEC)
         os.system("./Modularity_Calculation.exe ../" + directory + file + " ../../results-greeedy-m/" + file_name
                   + " 0 0 UN TC 2 >> " + " ../../results-greeedy-m/" + file_name + ".modularity")
+        os.chdir("../" + directory)
+
+
     os.chdir("../../source")
 
 
